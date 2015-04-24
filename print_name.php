@@ -1,9 +1,8 @@
 <?php
     header('Content-Type: text/plain');
-    
-    $nameValue = '';
+    $name = '';
     if (isset($_GET['name']))    
     {
-        $nameValue= $_GET['name'];
+        $name= $_GET['name'];
     }
-    echo "Hello, Dear ".$_GET['name']."!";
+    echo "Hello, Dear " .$name ."!";
