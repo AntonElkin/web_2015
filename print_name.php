@@ -5,4 +5,4 @@
     {
         $name= $_GET['name'];
     }
-    echo "Hello, Dear " . $name ."!";
+    echo "Hello, Dear " . $name . "!";
