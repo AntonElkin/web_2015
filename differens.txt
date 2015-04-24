@@ -1,0 +1,7 @@
+различия:
+print_hello.php
+Content-Length: 12
+Content-Type: text/plain
+print_hello_html.php
+Content-Length: 22
+Content-Type: text/html
