@@ -1,5 +1,20 @@
-различия 
-print_hello_html.php
-Content-Type:text/html
-print_hello.php
-Content-Type:text/plain
+Response Headers
+HTTP/1.1 200 OK
+Date: Fri, 17 Apr 2015 18:37:02 GMT
+Server: Apache/2.2.15 (Win32) PHP/5.3.2
+X-Powered-By: PHP/5.3.2
+Content-Length: 12
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/plain
+
+Request Headers
+GET /print_hello.php HTTP/1.1
+Host: 127.0.0.1:4001
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.118 Safari/537.36
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4
