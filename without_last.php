@@ -1,5 +1,5 @@
 <?php
     include 'include/common.inc.php';
     $str = GetParamFromGet('str');
-    $wlst = WithoutLast($str);
-    echo ("WithoutLast - #{$wlst}#<br>");
+    $str = WithoutLast($str);
+    echo ("string WithoutLast :"$str});
