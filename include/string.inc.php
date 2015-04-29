@@ -4,7 +4,7 @@
         $str = substr($str, strlen($str) - 1, 1);
         return $str;
     }
-	 function WithoutLast($str)
+    function WithoutLast($str)
     {
         $str = substr($str, 0, strlen($str) - 1);
         return $str;
