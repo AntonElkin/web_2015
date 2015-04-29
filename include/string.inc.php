@@ -1,25 +1,25 @@
 <?php
     function Last($str)
     {
-        $lst = substr($str, strlen($str) - 1, 1);
-        return $lst;
+        $str = substr($str, strlen($str) - 1, 1);
+        return $str;
     }
 	 function WithoutLast($str)
     {
-        $wlst = substr($str, 0, strlen($str) - 1);
-        return $wlst;
+        $str = substr($str, 0, strlen($str) - 1);
+        return $str;
     }
     function Revers($str)
     {
-        $rvr = strrev($str);
-        return $rvr;
+        $str = strrev($str);
+        return $str;
     }
     function RemoveExtraBlanks($str)
     {
-        $nstr = trim($str);
-        while (strpos($nstr, '  ') !== false)
+        $str = trim($str);
+        while (strpos($str, '  ') !== false)
         {
-            $nstr = str_replace('  ', ' ', $nstr);
+            $str = str_replace('  ', ' ', $str);
         }
-        return $nstr;
+        return $str;
     }
