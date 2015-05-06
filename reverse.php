@@ -2,4 +2,11 @@
     include 'include/common.inc.php';
     $str = GetParamFromGet('str');
     $str = Revers($str);
-    echo ("Revers string: " . {$str});
+	if ($str != "")
+	{
+        echo ("Revers string: " . $str);
+	}
+	else 
+	{
+	    echo ('String is not set');
+	}

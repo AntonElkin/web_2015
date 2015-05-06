@@ -31,6 +31,6 @@
     }
     else
     {
-        echo 'E -Mail not specified';
+        echo 'E -Mail not defined';
         return;
     }
