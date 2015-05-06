@@ -17,7 +17,7 @@
        
     if (file_exists($file))
     {
-        echo 'E -Mail is already in use , specify a different';
+        echo 'E -Mail is use';
         return;
     }
    
@@ -27,7 +27,7 @@
         {
             file_put_contents($file, "{$key}:{$value}\r\n", FILE_APPEND);
         }
-        echo 'Data are added successfully';
+        echo 'Data are added';
     }
     else
     {
