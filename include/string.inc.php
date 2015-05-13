@@ -16,6 +16,6 @@
     }
     function RemoveExtraBlanks($str)
     {
-        $str = trim($str);
-        return $str;
+        $text = trim($str);
+        return $text;
     }
