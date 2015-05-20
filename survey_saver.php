@@ -14,7 +14,7 @@
     }
 	
     $data = GetSurveyFromRequest();
-	$email = $data['email'];
+    $email = $data['email'];
 	
     $filePath = GetFilePath($email);
     if (file_exists($filePath))
