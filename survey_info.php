@@ -7,9 +7,9 @@
     if ( file_exists($path) )
     {   
         $data = file_get_contents($path);
-		echo $data;
+        echo $data;
     }
-	else
-	{
-	    echo 'email is not defined';
-	}
+    else
+    {
+        echo 'email is not defined';
+    }
