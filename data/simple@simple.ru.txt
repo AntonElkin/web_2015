@@ -1,4 +1,0 @@
-Email:simple@simple.ru
-First Name:qwerty
-Last Name:lastName
-Age:

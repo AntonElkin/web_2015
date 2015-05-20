@@ -1,6 +1,5 @@
 ﻿<?php
-    function GetParamFromGet($paramname)
-    {   
-        $result = isset($_GET[$paramname]) ? $_GET[$paramname] : '';
-        return $result;
+    function GetParamFromGet($paramName, $defaultValue = '') 
+    {
+        return $result = isset($_GET[$paramName]) ? $_GET[$paramName] : $defaultValue;
     }
