@@ -36,7 +36,6 @@ h1
 
 .button
 { 
-    display: block;
     height: 34px;
     width: 298px;
     background: url("../images/button.png") no-repeat;
