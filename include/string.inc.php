@@ -17,5 +17,9 @@
     function RemoveExtraBlanks($str)
     {
         $text = trim($str);
+        while (strpos($text, '  ') !== false)
+        {
+            $text = str_replace('  ', ' ', $text);
+        }
         return $text;
     }
