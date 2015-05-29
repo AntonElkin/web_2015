@@ -1,0 +1,44 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.container
+{
+    height: 246px;
+    width: 317px;
+    display: block;
+    background-color: #F4F4F4;
+}
+
+.header
+{
+    height: 24px;
+    width: 254px;
+    font: bold 18px/20px Arial;
+    background: url("../images/arrow.png") no-repeat scroll 1px 21px;
+    border-bottom: 6px solid black;
+    margin: 0 0 17px 15px;
+    padding: 14px 0 4px 28px;
+}
+
+.main
+{
+    list-style: none;
+    padding: 0 0 0 15px;
+    width: 290px;
+}
+
+.main li
+{
+    margin-bottom: 13px;
+    font: 12px/14px arial;
+    padding: 2px 0 0 28px;
+    background: url("../images/background.png") no-repeat;
+}
+
+.main .last_string
+{
+    margin-top: 14px;
+}

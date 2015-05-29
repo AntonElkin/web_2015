@@ -93,7 +93,7 @@ mysql> SHOW COLUMNS FROM offer;
 5 rows in set (0.00 sec)
 
 mysql>
-//2///
+//3///
 
 mysql> INSERT INTO dvd
     -> (title ,production_year)
@@ -180,7 +180,7 @@ mysql> SELECT * FROM offer;
 5 rows in set (0.00 sec)
 
 mysql>
-///3///
+///4///
 
 mysql> INSERT INTO dvd
     -> (title, production_year)
@@ -204,7 +204,7 @@ mysql> SELECT * FROM dvd
 
 mysql>
 
-///4////
+///5////
 mysql> INSERT INTO offer
     -> (dvd_id, customer_id, offer_date, return_date)
     -> VALUES
@@ -229,7 +229,7 @@ mysql> SELECT title FROM dvd
 +--------+
 1 row in set (0.00 sec)
 
-//////5//
+//////6//
 mysql> SELECT customer_id FROM offer offer
     -> WHERE
     -> (

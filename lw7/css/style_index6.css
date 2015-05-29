@@ -47,7 +47,7 @@ h1
     background: url("../images/button-over.png") no-repeat;
 }
 
-.button a
+.button span
 {
     font: bold 12px Arial;
     display: block;
